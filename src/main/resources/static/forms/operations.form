@@ -1,0 +1,26 @@
+{
+  "type": "default",
+  "components": [
+    {
+      "key": "input1",
+      "label": "First Input",
+      "type": "textfield",
+      "description": "First Input",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "key": "input2",
+      "label": "Second Input",
+      "type": "textfield",
+      "description": "Second Input"
+    },
+    {
+      "key": "operation",
+      "label": "Operation",
+      "type": "textfield",
+      "description": "Operation"
+    }
+  ]
+}
