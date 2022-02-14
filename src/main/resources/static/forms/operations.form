@@ -1,5 +1,5 @@
 {
-  "type": "default",
+  "schemaVersion": 2,
   "components": [
     {
       "key": "input1",
@@ -8,19 +8,42 @@
       "description": "First Input",
       "validate": {
         "required": true
-      }
+      },
+      "id": "Field_1eceiyi"
     },
     {
       "key": "input2",
       "label": "Second Input",
       "type": "textfield",
-      "description": "Second Input"
+      "description": "Second Input",
+      "id": "Field_09623hv"
     },
     {
-      "key": "operation",
+      "values": [
+        {
+          "label": "Add",
+          "value": "+"
+        },
+        {
+          "label": "Substract",
+          "value": "-"
+        },
+        {
+          "label": "Multiply",
+          "value": "*"
+        },
+        {
+          "label": "Division",
+          "value": "/"
+        }
+      ],
       "label": "Operation",
-      "type": "textfield",
+      "type": "select",
+      "id": "Field_1qy3lau",
+      "key": "operation",
       "description": "Operation"
     }
-  ]
+  ],
+  "type": "default",
+  "id": "Form_0llhi45"
 }

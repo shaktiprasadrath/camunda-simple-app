@@ -21,6 +21,12 @@ public class Calculations implements JavaDelegate {
         }else if (opr.equals("*")){
             int mul = Integer.parseInt(finp)*Integer.parseInt(sinp);
             System.out.println("Multplication is: "+ mul);
+        }else if (opr.equals("-")){
+            int sub = Integer.parseInt(finp)-Integer.parseInt(sinp);
+            System.out.println("Substraction is: "+ sub);
+        }else if (opr.equals("/")){
+            int div = Integer.parseInt(finp)/Integer.parseInt(sinp);
+            System.out.println("Division is: "+ div);
         }
     }
 }
